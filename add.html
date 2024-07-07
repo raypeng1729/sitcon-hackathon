@@ -82,7 +82,7 @@
         document.getElementById('updateForm').addEventListener('submit', function(event) {
             event.preventDefault();
             var inputString = document.getElementById('inputString').value;
-            console.log(inputString);
+            
             fetch('/update_json', {
                 method: 'POST',
                 headers: {

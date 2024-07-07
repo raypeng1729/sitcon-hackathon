@@ -23,7 +23,6 @@ app.use(express.json());
 }*/
 
 app.post('/vote', (req, res) => {
-    console.log("HELLO");
     const { topic, opinion } = req.body;
     fs.readFile(votesFilePath, (err, data) => {
         if (err) return res.status(500).send('Error reading votes file.');
