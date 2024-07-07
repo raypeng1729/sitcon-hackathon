@@ -1,0 +1,22 @@
+{
+  "proposals": [
+    "test",
+    "開放午餐外食，這樣才夠wise",
+    "ubike30分鐘內免費政策"
+  ],
+  "test": {
+    "agree": 0,
+    "disagree": 0,
+    "noOpinion": 0
+  },
+  "開放午餐外食，這樣才夠wise": {
+    "agree": 2,
+    "disagree": 18,
+    "noOpinion": 0
+  },
+  "ubike30分鐘內免費政策": {
+    "agree": 1,
+    "disagree": 0,
+    "noOpinion": 3
+  }
+}
